@@ -27,8 +27,8 @@ namespace testCompareFace
             float similarityThreshold = 70F;
             String sourceImage = "source.jpg";
             String targetImage = "target.jpg";
-            String accessKeyID="AKIAZPMUQZ4F5TDA7DVY";
-            String secretKey = "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";
+            String accessKeyID="";
+            String secretKey = "";
 
             AWSCredentials credentials;
             credentials = new BasicAWSCredentials(accessKeyID.Trim(), secretKey.Trim());
